@@ -16,7 +16,7 @@ function Form({ addNewItem }) {
   };
 
   return (
-    <form ref={form} onSubmit={handleSubmit}>
+    <form ref={form} onSubmit={handleSubmit} className="w-full">
       <div className="">
         <label
           htmlFor="first_name"

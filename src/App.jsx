@@ -83,8 +83,8 @@ function App() {
   };
 
   return (
-    <div className="bg-slate-200 h-screen grid place-items-center dark:bg-[#363062] ">
-      <div className="bg-white w-[520px] p-8 dark:bg-[#2B2A4C] dark:text-[white] rounded-xl">
+    <div className="bg-slate-200 h-screen grid place-items-center dark:bg-[#363062] p-4">
+      <div className="bg-white w-full max-w-[520px] p-8 dark:bg-[#2B2A4C] dark:text-white rounded-xl">
         <div className="toggler flex justify-center mb-4">
           <label className="relative inline-flex items-center justify-center cursor-pointer">
             <input
